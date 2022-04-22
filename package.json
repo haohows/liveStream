@@ -1,0 +1,35 @@
+{
+  "name": "livstream",
+  "version": "0.0.1",
+  "description": "網頁即時通訊",
+  "productName": "網頁即時通訊",
+  "author": "haohows",
+  "private": true,
+  "scripts": {
+    "dev": "quasar dev",
+    "build": "quasar build",
+    "build:pwa": "quasar build -m pwa"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.0.0",
+    "axios": "^0.21.4",
+    "core-js": "^3.6.5",
+    "firebase": "^8.7.0",
+    "lodash": "^4.17.21",
+    "quasar": "^1.0.0",
+    "sweetalert2": "^10.15.7",
+    "vue-i18n": "^8.0.0",
+    "vue-sweetalert2": "^4.2.1"
+  },
+  "devDependencies": {
+    "@quasar/app": "^2.0.0"
+  },
+  "browserslist": [
+    "last 1 version, not dead, ie >= 11"
+  ],
+  "engines": {
+    "node": ">= 10.18.1",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  }
+}

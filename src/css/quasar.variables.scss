@@ -1,0 +1,69 @@
+// Quasar SCSS (& Sass) Variables
+// --------------------------------------------------
+// To customize the look and feel of this app, you can override
+// the Sass/SCSS variables found in Quasar's source Sass/SCSS files.
+// Check documentation for full list of Quasar variables
+// Your own variables (that are declared here) and Quasar's own
+// ones will be available out of the box in your .vue/.scss/.sass files
+// It's highly recommended to change the default colors
+// to match your app's branding.
+// Tip: Use the "Theme Builder" on Quasar's documentation website.
+// If you want to override variables do it here
+// @import "variables";
+// If you want to add something do it here
+// @import "_custom/style";
+
+$primary: #247ba0;
+$secondary: #42a8ac;
+$negative: #c10015;
+$Tangerine: #f08700;
+$Orange: #f49f0a;
+$warning: #ffb93f;
+$positive: #21ba45;
+$info: #31ccec;
+$accent: #9c27b0;
+$white: #fff;
+$drak: #323031;
+$CoralRed: #ef5350;
+$Mintgreen: #8ac6d1;
+$ColumbiaBlue: #bbdef0;
+$Spacecadet: #1d346e;
+$YaleBlue: #303f9f;
+$Iceberg: #83a5cd;
+
+*:not(.material-icons, .q-icon, .fab, font) {
+    font-family: "Noto Sans TC", "微軟正黑體", sans-serif, "Font Awesome 5 Free";
+    font-weight: bold;
+}
+
+.q-dialog {
+    z-index: 2;
+}
+
+.q-layout {
+    z-index: 1;
+}
+
+.q-table__container {
+    tr {
+        th {
+            font-weight: bold;
+            font-size: 1.5em;
+        }
+        td {
+            font-size: 1.3em;
+            .q-icon {
+                vertical-align: -10%;
+            }
+        }
+    }
+    .q-table__bottom {
+        justify-content: center;
+    }
+}
+
+.sidbarFixed {
+    .q-drawer {
+        position: fixed;
+    }
+}

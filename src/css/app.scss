@@ -1,0 +1,91 @@
+.swal2-icon-content {
+    font-family: "arial";
+}
+body {
+    &::-webkit-scrollbar {
+        display: none;
+    }
+    padding-right: 0px !important;
+    user-select: none;
+}
+
+//淡入/淡出特效
+.action-enter-active,
+.action-leave-active {
+    transition: opacity 0.5s;
+}
+.action-enter,
+.action-leave-to {
+    opacity: 0;
+}
+
+// 隱藏number按鈕時的上下箭頭
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none !important;
+    margin: 0 !important;
+}
+
+// body::-webkit-scrollbar {
+//     display: none;
+// }
+
+// app global css in SCSS form
+// app global css in SCSS form
+// html {
+//     font-size: 16px;
+// }
+
+// p {
+//     // font-size: $font-size-base;
+//     white-space: pre-wrap;
+// }
+
+/*for FJU 特殊造字*/
+
+// @font-face {
+//     font-family: "eudc";
+//     src: url("./fonts/eudc.woff2") format("woff2"), url("./fonts/eudc.woff") format("woff"),
+//         url("./fonts/eudc.ttf") format("truetype"), url("./fonts/eudc.svg#eudc") format("svg");
+// }
+
+// .eudcFont {
+//     font-family: "eudc" !important;
+//     font-weight: bold;
+// }
+
+// // 網頁寬度
+// .app-body-block {
+//     max-width: 1440px;
+//     width: 100%;
+//     margin-right: auto;
+//     margin-left: auto;
+// }
+
+// 解決sweet-alert會在dialog下面的問題
+// .swal2-container {
+//     z-index: 9999 !important;
+// }
+
+// ul {
+//     &.default {
+//         list-style: none;
+//         padding: 0;
+//         margin: 0;
+//         li {
+//             margin-bottom: 0.5em;
+//             border-bottom: 1px solid #eee;
+//             padding-bottom: 0.5em;
+//             .title {
+//                 font-size: 1rem;
+//                 font-weight: bold;
+//                 width: 25%;
+//             }
+//             .content {
+//                 font-size: 0.9rem;
+//                 padding-left: 15px;
+//                 word-break: break-word;
+//             }
+//         }
+//     }
+// }
