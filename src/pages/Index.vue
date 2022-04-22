@@ -39,7 +39,6 @@
         v-model="callInput"
         label="從不同的瀏覽器窗口或設備接聽電話"
         style="width: 400px"
-        readonly
       >
         <template v-slot:after>
           <q-btn
