@@ -119,7 +119,7 @@ export default {
 
       // displaying the video data from the stream to the webpage
       const webcamVideo = document.querySelector("#webcamVideo");
-      remoteVideo = document.querySelector("#remoteVideo");
+      const remoteVideo = document.querySelector("#remoteVideo");
       webcamVideo.srcObject = localStream;
       remoteVideo.srcObject = remoteStream;
 
